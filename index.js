@@ -1,6 +1,7 @@
 module.exports = {
 	extends: [
-		'stylelint-plugin-stylus/standard'
+		'stylelint-plugin-stylus/standard',
+		'stylelint-config-recess-order'
 	],
 	rules: {
 		'stylus/indentation': 'tab',
