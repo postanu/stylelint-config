@@ -24,7 +24,6 @@
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-unicorn": "^37.0.1",
-    "stylelint": "^14.0.1",
-    "stylelint-plugin-stylus": "^0.13.1"
+    "stylelint": "^14.0.1"
   }
 }
