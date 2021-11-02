@@ -1,6 +1,7 @@
 module.exports = {
 	extends: [
 		'stylelint-plugin-stylus/standard',
+		'stylelint-config-recommended-vue',
 		'stylelint-config-recess-order'
 	],
 	rules: {
