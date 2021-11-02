@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "postcss-html": "^1.2.0",
+    "stylelint-config-html": "^1.0.0",
     "stylelint-config-recess-order": "^2.5.0",
-    "stylelint-config-recommended-vue": "^1.0.0",
     "stylelint-plugin-stylus": "^0.13.1"
   },
   "devDependencies": {
