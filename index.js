@@ -7,6 +7,7 @@ module.exports = {
 	rules: {
 		'stylus/indentation': 'tab',
 		'stylus/declaration-colon': 'always',
-		'stylus/selector-list-comma': 'always'
+		'stylus/selector-list-comma': 'always',
+		'stylus/media-feature-colon': 'always'
 	}
 }
