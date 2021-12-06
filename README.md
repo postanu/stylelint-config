@@ -3,5 +3,5 @@
 ## Install
 
 ```sh
-pnpm --save-dev @postanu/stylelint-config stylelint
+pnpm add --save-dev @postanu/stylelint-config stylelint
 ```
