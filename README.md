@@ -3,5 +3,5 @@
 ## Install
 
 ```sh
-yarn add --dev @postanu/stylelint-config stylelint
+pnpm --save-dev @postanu/stylelint-config stylelint
 ```
