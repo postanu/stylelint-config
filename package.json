@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "Stylelint sharable config for Postanu",
   "license": "MIT",
-  "author": "Eduard Aksamitov",
+  "author": "Eduard Aksamitov <e@euaaaio.ru>",
   "repository": "postanu/stylelint-config",
   "peerDependencies": {
     "stylelint": ">=14.0.1"
