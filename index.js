@@ -1,13 +1,21 @@
 module.exports = {
 	extends: [
-		'stylelint-plugin-stylus/standard',
-		'stylelint-config-recess-order',
-		'stylelint-config-html/vue'
+		'stylelint-config-standard-scss',
+		'stylelint-config-recommended-vue/scss',
+		'stylelint-config-recess-order'
 	],
 	rules: {
-		'stylus/indentation': 'tab',
-		'stylus/declaration-colon': 'always',
-		'stylus/selector-list-comma': 'always',
-		'stylus/media-feature-colon': 'always'
-	}
+		'declaration-empty-line-before': [
+			'always',
+			{
+				ignore: ['after-declaration']
+			}
+		]
+	},
+	overrides: [
+		{
+			files: ['**/*.sass'],
+			customSyntax: 'postcss-sass'
+		}
+	]
 }

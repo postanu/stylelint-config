@@ -1,4 +1,4 @@
-<style lang="stylus">
+<style lang="sass">
 .test-block
 	--color: #fff
 
