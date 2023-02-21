@@ -5,12 +5,7 @@ module.exports = {
 		'stylelint-config-recess-order'
 	],
 	rules: {
-		'declaration-empty-line-before': [
-			'always',
-			{
-				ignore: ['after-declaration']
-			}
-		]
+		'declaration-empty-line-before': null
 	},
 	overrides: [
 		{
