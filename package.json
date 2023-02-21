@@ -6,13 +6,13 @@
   "author": "Eduard Aksamitov <e@euaaaio.ru>",
   "repository": "postanu/stylelint-config",
   "peerDependencies": {
-    "stylelint": ">=14.11.0"
+    "stylelint": ">=15.2.0"
   },
   "dependencies": {
     "postcss-html": "^1.5.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^3.0.0",
-    "stylelint-plugin-stylus": "^0.17.0"
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-plugin-stylus": "^0.18.0"
   },
   "devDependencies": {
     "@postanu/eslint-config": "^3.13.0",
@@ -25,6 +25,6 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-unicorn": "^45.0.2",
-    "stylelint": "^14.11.0"
+    "stylelint": "^15.2.0"
   }
 }
