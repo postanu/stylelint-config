@@ -6,7 +6,8 @@ module.exports = {
 	],
 	rules: {
 		'custom-property-empty-line-before': null,
-		'declaration-empty-line-before': null
+		'declaration-empty-line-before': null,
+		'color-hex-length': 'long'
 	},
 	overrides: [
 		{
