@@ -1,8 +1,8 @@
 module.exports = {
 	extends: [
+		'stylelint-config-recess-order',
 		'stylelint-config-standard-scss',
-		'stylelint-config-recommended-vue/scss',
-		'stylelint-config-recess-order'
+		'stylelint-config-recommended-vue/scss'
 	],
 	rules: {
 		'custom-property-empty-line-before': null,
@@ -11,7 +11,11 @@ module.exports = {
 	overrides: [
 		{
 			files: ['**/*.sass'],
-			customSyntax: 'postcss-sass'
+			customSyntax: 'sugarss'
+		},
+		{
+			files: ['**/*.vue'],
+			customSyntax: '@postanu/postcss-html'
 		}
 	]
 }
