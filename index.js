@@ -6,6 +6,7 @@ module.exports = {
 	],
 	rules: {
 		'color-hex-length': 'long',
+		'no-duplicate-selectors': null,
 		'selector-class-pattern': null,
 		'no-descending-specificity': null,
 		'declaration-empty-line-before': null,
