@@ -1,6 +1,6 @@
 {
   "name": "@postanu/stylelint-config",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "Stylelint sharable config for Postanu",
   "license": "MIT",
   "author": "Eduard Aksamitov <e@euaaaio.ru>",
