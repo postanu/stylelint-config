@@ -6,18 +6,18 @@ module.exports = {
 	],
 	rules: {
 		'color-hex-length': 'long',
-		"selector-class-pattern": null,
-		"no-descending-specificity": null,
+		'selector-class-pattern': null,
+		'no-descending-specificity': null,
 		'declaration-empty-line-before': null,
 		'custom-property-empty-line-before': null,
-		"selector-pseudo-element-colon-notation": "single",
-		"at-rule-no-unknown": [
+		'selector-pseudo-element-colon-notation': 'single',
+		'at-rule-no-unknown': [
 			true,
 			{
-				"ignoreAtRules": [
-					"use",
-					"mixin",
-					"include"
+				'ignoreAtRules': [
+					'use',
+					'mixin',
+					'include'
 				]
 			}
 		]
