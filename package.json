@@ -6,30 +6,31 @@
   "author": "Eduard Aksamitov <e@euaaaio.ru>",
   "repository": "postanu/stylelint-config",
   "peerDependencies": {
-    "postcss": ">=8.4.21",
-    "stylelint": ">=15.2.0"
+    "postcss": ">=8.4.25",
+    "stylelint": ">=15.10.1"
   },
   "dependencies": {
     "@postanu/postcss-html": "1.5.0-postanu.1",
     "postcss-html": "^1.5.0",
-    "stylelint-config-recess-order": "^4.0.0",
-    "stylelint-config-recommended-vue": "^1.4.0",
-    "stylelint-config-standard": "^31.0.0",
-    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-config-recess-order": "^4.2.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^10.0.0",
     "sugarss": "^4.0.1"
   },
   "devDependencies": {
-    "@postanu/eslint-config": "^3.13.0",
-    "eslint": "^8.34.0",
-    "eslint-config-standard": "^17.0.0",
+    "@postanu/eslint-config": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-perfectionist": "^1.4.0",
     "eslint-plugin-prefer-let": "^3.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^1.7.1",
-    "eslint-plugin-unicorn": "^45.0.2",
-    "postcss": "^8.4.21",
-    "stylelint": "^15.3.0"
+    "eslint-plugin-unicorn": "^47.0.0",
+    "postcss": "^8.4.25",
+    "stylelint": "^15.10.1"
   }
 }
