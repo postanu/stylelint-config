@@ -1,3 +1,4 @@
+<style lang="sass">
 .test-block
 	--color: #ffffff
 	--color-2: #ffffff
@@ -30,8 +31,9 @@
 
 	transition: all 1s
 
-	@media (max-width: 600px)
+	@media (width >= 600px)
 		width: 50px
 		height: 50px
 		padding: 5px
 		margin: 5px
+</style>

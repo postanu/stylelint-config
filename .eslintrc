@@ -1,3 +1,4 @@
 {
-	"extends": "@postanu/eslint-config"
+	"extends": "@postanu/eslint-config",
+	"ignorePatterns": ["*.vue"]
 }
