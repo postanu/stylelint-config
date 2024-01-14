@@ -12,6 +12,7 @@ module.exports = {
 		'declaration-empty-line-before': null,
 		'custom-property-empty-line-before': null,
 		'selector-pseudo-element-colon-notation': 'single',
+		// sass
 		'at-rule-no-unknown': [
 			true,
 			{
@@ -19,6 +20,15 @@ module.exports = {
 					'use',
 					'mixin',
 					'include'
+				]
+			}
+		],
+		// astro
+		'selector-pseudo-class-no-unknown': [
+			true,
+			{
+				'ignorePseudoClasses': [
+					'global'
 				]
 			}
 		]
@@ -29,7 +39,7 @@ module.exports = {
 			customSyntax: 'sugarss'
 		},
 		{
-			files: ['**/*.vue'],
+			files: ['**/*.vue', '**/*.astro'],
 			customSyntax: '@postanu/postcss-html'
 		}
 	]
